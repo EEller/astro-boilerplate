@@ -2,17 +2,13 @@
 // Bem-vindo ao Astro! Todo código entre esses três traços
 // é o "frontmatter de componente". Ele nunca executa no navegador.
 console.log("Isso executa em seu terminal, não no navegador!");
+import "../styles/global.css";
 ---
 
 <!-- Abaixo está seu "modelo de componente". É apenas HTML, mas com
     um toque de mágica para ajudar você a construir modelos excelentes. -->
 <html>
   <body>
-    <h1>Olá, Mundo!</h1>
+    <h1 class="text-3xl font-bold underline text-orange-500">Hello world!</h1>
   </body>
 </html>
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
